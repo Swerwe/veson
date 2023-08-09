@@ -1,0 +1,15 @@
+.item{
+    font-weight: 550;
+    font-size: 1.3em;
+    height: 100%;
+    min-width: 30px;
+    min-height: 40px;
+    margin: 2%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    width: 66%;
+}

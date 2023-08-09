@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    padding: 10px;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.text{
+    font-weight: 550;
+    font-size: 1.3em;
+}

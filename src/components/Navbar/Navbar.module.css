@@ -1,0 +1,12 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding-left: 5%;
+
+}
+.search{
+    margin-left: auto;
+    margin-right: 8%;
+
+}

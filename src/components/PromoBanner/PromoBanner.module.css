@@ -1,0 +1,67 @@
+.container{
+    background-color: rgb(232,230,227);
+    background-image: url("../../img/design/main.jpeg");
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 0;
+    padding-top: 49.3%;
+
+    border-radius: 3em;
+    position: relative;
+
+}
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 3em;
+    background-color: rgba(0, 0, 0, 0.07);
+    z-index: 0;
+}
+.head{
+    font-family: "Custom Bold",serif;
+    top:7%;
+    left: 5%;
+    width: 40%;
+    font-weight: 300;
+    font-size: 7vw;
+
+}
+.text{
+    color: rgb(50,50,50);
+    font-family: "Shafigh" ,serif;
+    bottom: 21%;
+    left: 5%;
+    width: 42%;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+.child{
+
+    box-sizing: border-box;
+    position: absolute;
+}
+.btn{
+    position: absolute;
+    left: 5%;
+    width: 18%;
+    bottom: 4%;
+    background-color: black;
+    border-radius: 4rem;
+    height: 10%;
+
+}
+@font-face {
+    font-family: "Custom Bold";
+    src: local("Custom Bold"), url("../../fonts/Anton-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Shafigh";
+    src: local("Custom Bold"), url("../../fonts/XB Shafigh Kurd.ttf") format("truetype");
+}

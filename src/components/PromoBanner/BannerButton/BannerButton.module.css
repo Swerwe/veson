@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.text{
+    color: white;
+    margin-left: 20%;
+    font-size: 1.4vw;
+    white-space: nowrap;
+
+}
+.link{
+    margin-right: 5%;
+}

@@ -1,7 +1,6 @@
 .container{
     display: flex;
     align-items: center;
-    min-width: 100px;
     padding: 10px;
 }
 .logo{
@@ -10,6 +9,6 @@
     padding: 10px;
 }
 .text{
-    font-weight: 550;
-    font-size: 1.3em;
+    font-weight: 430;
+    font-size: 1.7vw;
 }

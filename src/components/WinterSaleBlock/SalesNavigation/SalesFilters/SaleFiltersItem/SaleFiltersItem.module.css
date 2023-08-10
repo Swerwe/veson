@@ -1,0 +1,20 @@
+.item{
+    margin: 3vw;
+    display: flex;
+    align-items: center;
+}
+.title{
+    white-space: nowrap;
+    font-size: 2vw;
+    font-family: "Shafigh";
+
+
+}
+.img{
+    width: 7vw;
+    height: 5vw;
+    border-radius: 1.5rem;
+    border: 0.2vw solid black;
+    margin: 1vw;
+
+}

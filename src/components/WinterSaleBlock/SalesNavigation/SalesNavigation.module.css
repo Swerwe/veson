@@ -7,5 +7,10 @@
 
 }
 .filter{
-
+    width: 30%;
+    margin-left: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
 }

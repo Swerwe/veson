@@ -1,0 +1,20 @@
+.content{
+    position: relative;
+}
+.more-btn{
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    width: 9vw;
+    height: 4.5vw;
+    left: 46vw;
+    bottom: -2vw;
+    font-size: 1.2vw;
+    font-family: "Shafigh",serif;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.more-btn:hover{
+    border: 2px solid black;
+
+}

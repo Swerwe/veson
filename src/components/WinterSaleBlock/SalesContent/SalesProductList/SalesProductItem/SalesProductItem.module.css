@@ -1,0 +1,44 @@
+.item{
+    padding: 2vw;
+    margin-bottom: 2vw;
+    position: relative;
+
+}
+.title{
+    font-family: "Shafigh",serif;
+    position: absolute;
+    font-size: 1.4vw;
+    font-weight: 600;
+    left: 3vw;
+}
+.detail-button{
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.3vw;
+    width: 5vw;
+    height: 2.7vw;
+    border-radius: 3rem;
+    background: white;
+    border: 0.15vw solid black;
+    bottom: -2vw;
+    right: 2.2vw;
+}
+.detail-button:hover{
+    border: 0.16vw solid black;
+}
+.price{
+    position: absolute;
+    bottom: -2vw;
+    left: 3vw;
+    font-family: "Custom Bold";
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+.image{
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 21vw;
+    height:32vw;
+}

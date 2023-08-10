@@ -8,7 +8,7 @@ interface IProps {
 
 const SalesNavigation = () => {
     return (
-        <div>
+        <div className={classes.container}>
             <h1 className={classes.header}>Winter Sale 2023</h1>
             <SalesFilters className={classes.filters}/>
         </div>

@@ -11,7 +11,7 @@ const SalesFilters = (props:IProps) => {
     const filters = useContext(UserContext)?.filters;
 
     return (
-        <div>
+        <div className={[classes.container,props.className].join(' ')}>
             {
                 filters.map(x =>
                 <SaleFiltersItem key ={Math.random()} filter={x} className={classes.item}/>

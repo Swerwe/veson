@@ -10,8 +10,11 @@ interface IProps {
 
 const SaleFiltersItem = (props:IProps) => {
     return (
-        <div>
-            {props.filter.title}
+        <div className={classes.item}>
+            <img className={classes.img} src={props.filter.img}/>
+            <span className={classes.title}>{props.filter.title}</span>
+
+
         </div>
     );
 };

@@ -1,14 +1,19 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import classes from "./SalesProductList.module.css"
+import UserContext from "../../../../context";
+import SalesProductItem from "./SalesProductItem/SalesProductItem";
 
 interface IProps {
     className: string;
 }
 
 const SalesProductList = () => {
+    const context = useContext(UserContext);
     return (
-        <div>
-            
+        <div className={classes.list}>
+            {context.products.map( product =>
+                <SalesProductItem className={classes.item} product={product}/>
+            )}
         </div>
     );
 };

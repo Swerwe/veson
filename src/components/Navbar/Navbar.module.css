@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgba(256,256,256,0.9);
+    background-color: rgba(256,256,256,0.94);
     width: 100%;
     position: fixed;
     display: flex;
@@ -7,6 +7,9 @@
     height: 10%;
     top: 0;
 
+}
+.navbar:hover{
+    background-color: white;
 }
 .search{
     margin-left: auto;

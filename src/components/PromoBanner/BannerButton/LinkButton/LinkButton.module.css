@@ -1,6 +1,9 @@
 .svg{
     width: 3vw;
-    height: 2.8vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .text{

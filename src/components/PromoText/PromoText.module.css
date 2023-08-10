@@ -1,0 +1,15 @@
+.text-container{
+    font-family: "Shafigh";
+
+    display: flex;
+    align-items: center;
+    font-size: 3vw;
+
+}
+.text{
+    flex:1;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}

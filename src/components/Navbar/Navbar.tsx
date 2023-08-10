@@ -10,7 +10,7 @@ interface IProps{
 const Navbar = (props:IProps) => {
     return (
         <div className={[classes.navbar,props.className].join(' ')}>
-            <VesonLogo/>
+            <VesonLogo className={classes.logo}/>
             <NavList className={classes.list}/>
             <SearchBar className={classes.search}/>
         </div>

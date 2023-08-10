@@ -1,8 +1,4 @@
 .img{
-    max-height: 40px;
-    max-width: 40px;
-    min-height: 30px;
-    min-width: 30px;
     width: 5vw;
     object-fit: cover;
 }

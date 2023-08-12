@@ -1,0 +1,22 @@
+.info{
+    position: absolute;
+
+}
+.soon{
+    position: absolute;
+    left: 4vw;
+
+
+
+}
+.main-block{
+    position: relative;
+    height: 57vw;
+
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.banner{
+    position: absolute;
+    top: -20vw;
+    left: 50vw;
+}

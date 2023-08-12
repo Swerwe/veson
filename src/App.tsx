@@ -7,6 +7,7 @@ import WinterSaleBlock from "./components/WinterSaleBlock/WinterSaleBlock";
 import Context from "./context"
 import fetchService from "./API/fetchService";
 import {IBestseller, IContext, IFilter, IProduct} from "./types/types";
+import DesignerBlock from "./components/DesignerBlock/DesignerBlock";
 function App() {
     const [filters,setFilters] = useState<IFilter[]>([]);
     const [products,setProducts] = useState<IProduct[]>([]);
@@ -38,6 +39,7 @@ function App() {
               <Navbar className={"nav"}/>
               <PromoBlock/>
               <WinterSaleBlock/>
+              <DesignerBlock/>
           </div>
       </Context.Provider>
 

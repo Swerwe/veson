@@ -1,0 +1,96 @@
+.main{
+    background-image: url("https://i.ibb.co/82vfPL2/image.png");
+    width: 47vw;
+    height: 51.5vw;
+    background-size: cover;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    cursor: pointer;
+}
+.title{
+    color: white;
+    font-family:"Custom Bold",serif;
+    font-size: 4.2vw;
+    position: absolute;
+    left:4vw;
+    top:3vw
+}
+.countdown{
+    color: white;
+    font-family: "Shafigh",serif;
+    font-size: 2.2vw;
+    position: absolute;
+    top:20vw;
+    left: 16vw;
+}
+.day{
+    top:22vw;
+
+}
+.hour{
+    top:26.6vw;
+    border-bottom: 1px solid rgba(256,256,256,0.5);
+
+
+}
+.time{
+    left: 29vw;
+    width: 15vw;
+    padding-left: 1vw;
+    white-space: nowrap;
+    color: rgb(255,165,0);
+    font-family: "Shafigh",serif;
+    font-size: 2.8vw;
+    font-weight: 600;
+    position: absolute;
+
+    border-top: 1px solid rgba(256,256,256,0.5);
+}
+.logo{
+    position: absolute;
+    width: 3.5vw;
+    left: 29.5vw;
+    top:32vw;
+}
+.designer{
+    width: 4.2vw;
+    height: 4.2vw;
+    position: absolute;
+    left: 40vw;
+    top:32.45vw;
+}
+.x{
+    font-family: "Shafigh",serif;
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top:33vw;
+    left:36vw;
+}
+button{
+    position: absolute;
+    width: 15vw;
+    height: 6vw;
+    border-radius: 4em;
+    top:40vw;
+    border: none;
+    font-family: "Shafigh",serif;
+    font-size: 1.9vw;
+    cursor: pointer;
+
+
+}
+.register{
+    left: 4vw;
+    font-weight: 600;
+
+}
+.register:hover{
+    outline: 1px solid white;
+}
+.learn{
+    background: none;
+    color: white;
+    left: 18vw;
+}

@@ -1,0 +1,44 @@
+.first{
+
+
+}
+.second{
+    color: rgb(255,165,0);
+    padding-top: -1vw;
+
+}
+.title{
+    font-family: "Custom Bold", serif;
+    line-height: 5vw;
+    font-size: 4vw;
+    display: block;
+}
+.designer{
+    background-image: url("https://i.ibb.co/fqJLt33/removal-ai-8385b214-413f-40ca-9883-a363c3e72fe3-james-visual.png");
+    background-size: cover;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 10em;
+    position: absolute;
+    left: 36vw;
+
+}
+.title-container{
+    position: absolute;
+    left:6vw;
+}
+.container{
+    position: relative;
+    padding-bottom: 20vw;
+}
+.info{
+    font-family: "Shafigh",serif;
+    color: black;
+    position: absolute;
+    width: 25vw;
+    font-weight: 600;
+    font-size: 1.5vw;
+    top:12vw;
+    left: 5.5vw;
+
+}

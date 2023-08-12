@@ -2,6 +2,7 @@
     padding: 2vw;
     margin-bottom: 2vw;
     position: relative;
+    cursor: pointer;
 
 }
 .title{
@@ -14,17 +15,17 @@
 .detail-button{
     cursor: pointer;
     position: absolute;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     width: 5vw;
     height: 2.7vw;
     border-radius: 3rem;
     background: white;
-    border: 0.15vw solid black;
+    border: 1px solid black;
     bottom: -2vw;
     right: 2.2vw;
 }
 .detail-button:hover{
-    border: 0.16vw solid black;
+    border: 2px solid black;
 }
 .price{
     position: absolute;

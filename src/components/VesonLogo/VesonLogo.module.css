@@ -1,5 +1,6 @@
 .img{
     width: 5vw;
+    height: 5vw;
     object-fit: cover;
 }
 .container{

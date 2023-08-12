@@ -12,7 +12,7 @@ const SalesProductList = () => {
     return (
         <div className={classes.list}>
             {context.products.map( product =>
-                <SalesProductItem className={classes.item} product={product}/>
+                <SalesProductItem key={Math.random()} className={classes.item} product={product}/>
             )}
         </div>
     );

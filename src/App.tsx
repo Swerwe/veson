@@ -8,6 +8,7 @@ import Context from "./context"
 import fetchService from "./API/fetchService";
 import {IBestseller, IContext, IFilter, IProduct} from "./types/types";
 import DesignerBlock from "./components/DesignerBlock/DesignerBlock";
+import BestSellerBlock from "./components/BestSellerBlock/BestSellerBlock";
 function App() {
     const [filters,setFilters] = useState<IFilter[]>([]);
     const [products,setProducts] = useState<IProduct[]>([]);
@@ -26,8 +27,6 @@ function App() {
         defaultContext.setProducts(products);
         const filters = await fetchService.getFilters();
         defaultContext.setFilters(filters);
-        const bestSellers = await fetchService.getBestsellers();
-        defaultContext.setBestsellers(bestSellers);
 
     }
     useEffect(() =>{
@@ -40,6 +39,7 @@ function App() {
               <PromoBlock/>
               <WinterSaleBlock/>
               <DesignerBlock/>
+              <BestSellerBlock className={"best-seller-block"}/>
           </div>
       </Context.Provider>
 

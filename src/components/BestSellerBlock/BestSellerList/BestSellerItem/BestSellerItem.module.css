@@ -1,0 +1,46 @@
+.item{
+    position: relative;
+    cursor: pointer;
+
+}
+.img{
+    width: 13vw;
+    border-radius: 1em;
+}
+.status{
+    font-family: "Shafigh",serif;
+    position: absolute;
+    font-size: 1.4vw;
+    top:2.5vw;
+    left: 14vw;
+}
+.title{
+    font-family: "Shafigh",serif;
+    font-weight: 600;
+    position: absolute;
+    top:5vw;
+    left: 14vw;
+    width: 12vw;
+    font-size: 1.8vw;
+}
+.price{
+    position: absolute;
+    left: 14vw;
+    top:11vw;
+    font-size: 2.5vw;
+    font-family: "Shafigh",serif;
+    font-weight: bolder;
+}
+.price::before {
+    content: "00";
+    color: gray;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.rating{
+    position: absolute;
+    top:15vw;
+    left: 14vw;
+
+}

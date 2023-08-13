@@ -9,7 +9,9 @@ export interface IProduct{
     price:number;
 }
 export interface IBestseller extends IProduct{
-
+    status:string;
+    rating:number;
+    ratesNumber:number;
 }
 export interface IContext{
     products:IProduct[];

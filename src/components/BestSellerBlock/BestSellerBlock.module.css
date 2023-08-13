@@ -1,0 +1,38 @@
+.title{
+    font-family: "Custom Bold",serif;
+    font-size: 4vw;
+
+    position: absolute;
+    top:7.5vw;
+    left: 5vw;
+
+}
+.img{
+    position: absolute;
+    width: 35vw;
+    top:5vw;
+    left: 60vw;
+}
+.main{
+    position: relative;
+    height: 68vw;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 5vw;
+}
+.more{
+    font-family: "Shafigh",Serif;
+    border-radius: 3em;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: 600;
+    font-size: 1.5vw;
+    width: 11vw;
+    height: 4vw;
+    position: absolute;
+    top:60vw;
+    left: 24vw;
+}
+.more:hover{
+    outline: 2px solid black;
+
+}

@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    z-index: 100;
+    align-items: center;
+}
+.star{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 0.5vw;
+}
+.rate-number{
+    font-family: "Shafigh",serif;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 0.3vw;
+    color: gray;
+
+
+}

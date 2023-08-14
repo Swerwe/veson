@@ -1,16 +1,15 @@
-.svg{
-    width: 3vw;
-    height: 3vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.img{
+    border-radius: 100vw;
+}
+.black{
+
+
+
+}
+.g{
 
 }
 .text{
-
-}
-.container{
-    border-radius: 200%;
-    border: 2px solid white;
 
 }

@@ -1,0 +1,20 @@
+.scroll{
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    font-family: "Custom Bold",Serif;
+    font-size: 4vw;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 2vw;
+}
+.banner{
+    width: 90vw;
+    height: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    padding-bottom: 3vw;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}

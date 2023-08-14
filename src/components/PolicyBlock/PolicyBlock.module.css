@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Shafigh,serif;
+    font-size: 1.5vw;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 4vw;
+}
+.copyright{
+    color: gray;
+}
+.element{
+    padding: 3vw;
+    cursor: pointer;
+}

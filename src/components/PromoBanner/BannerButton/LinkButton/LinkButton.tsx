@@ -1,16 +1,29 @@
 import React from 'react';
-import {ReactComponent as LinkSvg} from "../../../../img/icons/_.svg";
 import classes from "./LinkButton.module.css";
+import {inspect} from "util";
 interface IProps{
     className:string;
+    color?:string
 }
 const LinkButton = (props:IProps) => {
-    return (
-        <div className={[classes.container,props.className].join(' ')}>
-            <LinkSvg className={classes.svg}/>
-        </div>
 
-    );
+        if (props.color === 'white'){
+            return (
+
+                    <img className={[classes.img,props.className].join(' ')}  src={"https://i.ibb.co/4sLz7yy/white.png"}/>
+
+            )
+        }else{
+            return (
+
+                    <img className={[classes.img,props.className].join(' ')} src={"https://i.ibb.co/ZGpNvh5/black.png"}/>
+
+            )
+        }
+
+
+
+
 };
 
 export default LinkButton;

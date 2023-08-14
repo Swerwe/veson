@@ -1,0 +1,75 @@
+.main{
+    background-image: url("https://i.ibb.co/61TvksZ/Registration-Background-photoaidcom-darken.png");
+    background-size: cover;
+    border-radius: 2em;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top:5vw;
+    left: 8vw;
+    font-family: "Custom Bold",serif;
+    color: rgb(255,165,0);
+    font-size: 4.4vw;
+    width: 40vw;
+
+}
+.text{
+    position: absolute;
+    top:35vw;
+    left: 8vw;
+    width: 39vw;
+    color: white;
+    font-size: 1.8vw;
+    font-family: Shafigh,serif;
+
+}
+
+.more{
+    position: absolute;
+    top:45vw;
+    left: 70vw;
+    height: 6vw;
+    width: 15vw;
+    background: none;
+    color: white;
+
+}
+.email{
+    font-family: Shafigh,serif;
+    position: absolute;
+    width: 25vw;
+    height: 6vw;
+    top:45vw;
+    left: 45vw;
+    font-size: 1.8vw;
+    padding-right: 5vw;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+.link{
+    width: 4vw;
+    height: 4vw;
+    top:46vw;
+    left: 65vw;
+    position: absolute;
+    background: black;
+
+}
+.logo{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    top:10vw;
+    left: 65vw;
+}
+.veson{
+    position: absolute;
+    top:10vw;
+    left: 70vw;
+    color: white;
+    font-family: "Shafigh",serif;
+    font-size: 3vw;
+
+}

@@ -9,6 +9,9 @@ import fetchService from "./API/fetchService";
 import {IBestseller, IContext, IFilter, IProduct} from "./types/types";
 import DesignerBlock from "./components/DesignerBlock/DesignerBlock";
 import BestSellerBlock from "./components/BestSellerBlock/BestSellerBlock";
+import SingUpBanner from "./components/SingUpBanner/SingUpBanner";
+import InfoBlock from "./components/InfoBlock/InfoBlock";
+import PolicyBlock from "./components/PolicyBlock/PolicyBlock";
 function App() {
     const [filters,setFilters] = useState<IFilter[]>([]);
     const [products,setProducts] = useState<IProduct[]>([]);
@@ -40,6 +43,9 @@ function App() {
               <WinterSaleBlock/>
               <DesignerBlock/>
               <BestSellerBlock className={"best-seller-block"}/>
+              <SingUpBanner/>
+              <InfoBlock/>
+              <PolicyBlock/>
           </div>
       </Context.Provider>
 

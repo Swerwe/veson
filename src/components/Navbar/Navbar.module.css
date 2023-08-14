@@ -1,18 +1,26 @@
 .navbar{
-    background-color: rgba(256,256,256,0.94);
+    background-color: rgb(256,256,256);
+    opacity: 0.96;
     width: 100%;
     position: fixed;
     display: flex;
     padding-left: 5%;
+    padding-bottom: 1vw;
     height: 10%;
     top: 0;
+    transition: opacity 0.5s ease;
 
 }
 .navbar:hover{
-    background-color: white;
+    opacity: 1;
 }
 .search{
     margin-left: auto;
     margin-right: 8%;
 
+}
+.logo{
+    width: 3vw;
+    height: 3vw;
+    padding-top: 1vw;
 }

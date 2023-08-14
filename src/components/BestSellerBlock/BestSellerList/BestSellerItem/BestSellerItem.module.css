@@ -44,3 +44,38 @@
     left: 14vw;
 
 }
+.hovered{
+    filter: brightness(50%);
+}
+
+
+.cartbtn{
+    pointer-events:none;
+    background: none;
+    transition: all 0.5s ease;
+    font-family: Shafigh,serif;
+    position: absolute;
+    width: 8vw;
+    height: 2.6vw;
+    top:10vw;
+    font-size: 1vw;
+    left: 2.4vw;
+    border: 1px solid white;
+    color: white;
+}
+
+.sizebtn{
+    background: none;
+    pointer-events:none;
+    transition: all 0.5s ease;
+    font-family: Shafigh,serif;
+    position: absolute;
+    border: none;
+    color: white;
+
+    width: 8vw;
+    height: 2.6vw;
+    top:12.5vw;
+    font-size: 1vw;
+    left: 2.4vw;
+}

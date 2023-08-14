@@ -6,12 +6,14 @@ import {IBestseller} from "../../../types/types";
 import fetchService from "../../../API/fetchService";
 import UserContext from "../../../context";
 interface IProps {
-    className: string;
+    className?: string;
+    toLoad:boolean;
+    setToLoad:(x:boolean) => void
 
 }
 
 
-const BestSellerList = () => {
+const BestSellerList = (props:IProps) => {
     const context = useContext(UserContext);
     const fetch = async () =>{
         const bestSellers = await fetchService.getBestsellers();
@@ -23,9 +25,12 @@ const BestSellerList = () => {
 
     return (
         <div className={classes.list}>
-            {context.bestsellers.map(bestseller =>
+            {context.bestsellers.slice(0,4).map(bestseller =>
                 <BestSellerItem key={Math.random()} data={bestseller}/>
             )}
+            {props.toLoad && context.bestsellers.slice(4,context.bestsellers.length).map(bestseller =>
+                <BestSellerItem key={Math.random()} data={bestseller}/>
+            ) }
 
         </div>
     );

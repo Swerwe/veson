@@ -2,10 +2,10 @@
     display: grid;
     gap: 2vw;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+
 
     width: 55vw;
-    position: absolute;
-    top:15vw;
-    left: 5vw;
+    padding-top: 15vw;
+    padding-left: 5vw;
+    margin-bottom: 1vw;
 }

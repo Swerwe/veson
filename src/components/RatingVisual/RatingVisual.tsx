@@ -21,9 +21,9 @@ const RatingVisual = (props:IProps) => {
         <div className={[classes.container,props.className].join(' ')}>
             {starArr.map(x=>{
                 if (x){
-                    return <StarIcon color={"rgb(255,165,0)"} className={classes.star}/>
+                    return <StarIcon key={Math.random()} color={"rgb(255,165,0)"} className={classes.star}/>
                 }else{
-                    return <StarIcon color={"rgba(255,165,0,0.5)"} className={classes.star}/>
+                    return <StarIcon key={Math.random()} color={"rgba(255,165,0,0.5)"} className={classes.star}/>
                 }
 
             }

@@ -2,7 +2,8 @@
     padding: 2vw;
     margin-bottom: 2vw;
     position: relative;
-    cursor: pointer;
+
+
 
 }
 .title{
@@ -13,7 +14,8 @@
     left: 3vw;
 }
 .detail-button{
-    cursor: pointer;
+
+
     position: absolute;
     font-size: 1.1vw;
     width: 5vw;
@@ -36,10 +38,44 @@
     font-weight: 300;
 }
 .image{
+    cursor: pointer;
     border-radius: 2rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 21vw;
     height:32vw;
+    transition: filter 0.5s ease;
+
+}
+.cartbtn{
+
+    pointer-events:none;
+    background: none;
+    transition: all 0.5s ease;
+    font-family: Shafigh,serif;
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    top:20vw;
+    font-size: 1.3vw;
+    left: 7.5vw;
+    border: 1px solid white;
+    color: white;
+}
+
+.sizebtn{
+    background: none;
+    pointer-events:none;
+    transition: all 0.5s ease;
+    font-family: Shafigh,serif;
+    position: absolute;
+    border: none;
+    color: white;
+
+    width: 10vw;
+    height: 3vw;
+    top:24vw;
+    font-size: 1.3vw;
+    left: 7.5vw;
 }

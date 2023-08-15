@@ -1,13 +1,15 @@
 import React from 'react';
 import classes from "./NavbarItem.module.css";
+import {Link} from "react-router-dom";
 interface IProps{
     children?: string
+    path:string
 }
 const  NavbarItem = (props:IProps) => {
     return (
-        <div className={classes.item}>
+        <Link to={props.path} className={classes.item}>
             {props.children}
-        </div>
+        </Link>
     );
 };
 

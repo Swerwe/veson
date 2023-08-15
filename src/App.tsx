@@ -12,42 +12,26 @@ import BestSellerBlock from "./components/BestSellerBlock/BestSellerBlock";
 import SingUpBanner from "./components/SingUpBanner/SingUpBanner";
 import InfoBlock from "./components/InfoBlock/InfoBlock";
 import PolicyBlock from "./components/PolicyBlock/PolicyBlock";
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import Main from "./pages/Main/Main";
+import About from "./pages/About/About";
+
 function App() {
-    const [filters,setFilters] = useState<IFilter[]>([]);
-    const [products,setProducts] = useState<IProduct[]>([]);
-    const [bestsellers,setBestsellers] = useState<IBestseller[]>([]);
-    const defaultContext:IContext = {
-        products:products,
-        setProducts:setProducts,
-        filters:filters,
-        setFilters:setFilters,
-        bestsellers:bestsellers,
-        setBestsellers:setBestsellers,
-    }
 
-    const fetch = async () => {
-        const products = await fetchService.getProducts();
-        defaultContext.setProducts(products);
-        const filters = await fetchService.getFilters();
-        defaultContext.setFilters(filters);
-
-    }
-    useEffect(() =>{
-        fetch();
-    },[])
   return (
-      <Context.Provider value={defaultContext}>
-          <div className="App">
-              <Navbar className={"nav"}/>
-              <PromoBlock/>
-              <WinterSaleBlock/>
-              <DesignerBlock/>
-              <BestSellerBlock className={"best-seller-block"}/>
-              <SingUpBanner/>
-              <InfoBlock/>
-              <PolicyBlock/>
-          </div>
-      </Context.Provider>
+      <BrowserRouter>
+          <Navbar className={"nav"}/>
+          <Routes>
+              <Route path="/main" element={<Main/>}>
+              </Route>
+              <Route path="/about" element={<About/>}>
+              </Route>
+
+          </Routes>
+
+
+      </BrowserRouter>
+
 
   );
 }

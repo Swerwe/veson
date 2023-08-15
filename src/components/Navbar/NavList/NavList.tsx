@@ -7,9 +7,9 @@ interface IProps{
 const NavList = (props:IProps) => {
     return (
         <div className={[classes.navlist,props.className].join(' ')}>
-            <NavbarItem>About Us</NavbarItem>
-            <NavbarItem>Collection</NavbarItem>
-            <NavbarItem>Contact</NavbarItem>
+            <NavbarItem path={"/about"}>About Us</NavbarItem>
+            <NavbarItem path={"/collection"}>Collection</NavbarItem>
+            <NavbarItem path={"contact"}>Contact</NavbarItem>
         </div>
     );
 };
